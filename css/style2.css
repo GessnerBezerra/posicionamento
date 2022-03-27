@@ -1,0 +1,83 @@
+.area{
+    width: 700px;
+    height: 500px;
+    background-color: grey;
+    position: relative;  
+    top: calc(50vh - 250px);
+    left: calc(50vw - 350px);
+}
+.tamanho{
+    width: 100px;
+    height: 100px;
+    background-color: black;    
+}
+
+#qdr1{
+    position:absolute;
+    top: 0px;
+    left: 0px;    
+}
+
+#qdr2{
+    position:absolute;
+    top: 0px;
+    left: 105px;    
+}
+
+#qdr3{
+    position:absolute;
+    top: 0px;
+    left: 210px;    
+}
+
+#qdr4{
+    position:absolute;
+    top: 105px;
+    left: 0px;    
+}
+
+#qdr5{
+    position:absolute;
+    top: 105px;
+    left: 105px;    
+}
+
+#qdr6{
+    position:absolute;
+    top: 210px;
+    left: 0px;    
+}
+#qdr7{
+    position:absolute;
+    bottom: 0px;
+    right: 0px;    
+}
+
+#qdr8{
+    position:absolute;
+    bottom: 105px;
+    right: 0px;     
+}
+
+#qdr9{
+    position:absolute;
+    bottom: 0px;
+    right: 105px;     
+}
+#qdr10{
+    position:absolute;
+    bottom: 0px;
+    right: 210px;    
+}
+
+#qdr11{
+    position:absolute;
+    bottom: 105px;
+    right: 105px;     
+}
+
+#qdr12{
+    position:absolute;
+    bottom: 210px;
+    right: 0px;     
+}
