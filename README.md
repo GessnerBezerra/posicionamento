@@ -1,6 +1,6 @@
-# curriculo
+# Posicionamento
 
-## Informações passoais e profssionais
+## Trabalho sobre posicionamento de objetos
 
 <p align="center">
 <img src=./imagens/htm-l.jpg> <br />
