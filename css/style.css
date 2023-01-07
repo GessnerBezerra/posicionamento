@@ -1,8 +1,11 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     width: 100vw;
     height: 100vh;
-    object-position: center;
 }
 
 .relativa{
@@ -51,10 +54,10 @@ div.ex6{
     width: 25vw;
     height: 25vh;
     background-color: black;
-    object-position: left;
+    /* object-position: left; */
     position:absolute;
     top: 0px;
-    left: 0;
+    float:left;
 }
 
 div.ex7{
@@ -64,7 +67,7 @@ div.ex7{
     /* object-position: left; */
     position:absolute;
     bottom: 0px;
-    left: 0; 
+    float:left;
 }
 
 div.ex8{
@@ -74,7 +77,7 @@ div.ex8{
     /* object-position: right; */
     position:absolute;
     top: 0px;
-    right: 0;  
+    right:0;  
 }
 
 div.ex9{
@@ -133,3 +136,4 @@ div.ex9{
     padding: 10px; 
     text-transform: lowercase;
 
+}
