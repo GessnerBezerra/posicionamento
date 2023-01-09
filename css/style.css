@@ -8,24 +8,20 @@ body{
     height: 100vh;
 }
 
-.relativa{
-    position:relative;
-    left: 25%;
-    right: 25%;
-}
-
-.fixa{
-    position: absolute;
-    top: 25%;  
-    left: 25%;  
-    right: 25%;
-    bottom: 25%;
-}
-
 div.ex1 {
     width: 50vw;
     height: 100vh;
     background-color: blue;
+    position:relative;
+    left: 25%;
+}
+
+.fixa{
+    position: absolute;
+    top: 15%;  
+    left: 15%;  
+    right: 15%;
+    bottom: 20%;
 }
 
 div.ex2 {
@@ -50,42 +46,28 @@ div.ex5 {
 
 /* A partir desse ponto estão os css do pocisionamento-2 */
 
-div.ex6{
-    width: 25vw;
-    height: 25vh;
+.style{
+    width: 200px;
+    height: 200px;
     background-color: black;
-    /* object-position: left; */
     position:absolute;
+}
+div.ex6{
     top: 0px;
     float:left;
 }
 
 div.ex7{
-    width: 25vw;
-    height: 25vh;
-    background-color: black;
-    /* object-position: left; */
-    position:absolute;
     bottom: 0px;
     float:left;
 }
 
 div.ex8{
-    width: 25vw;
-    height: 25vh;
-    background-color: black;
-    /* object-position: right; */
-    position:absolute;
     top: 0px;
     right:0;  
 }
 
 div.ex9{
-    width: 25vw;
-    height: 25vh;
-    background-color: black;
-    /* object-position: right; */
-    position:absolute;
     bottom: 0px;
     right: 0;
 }
